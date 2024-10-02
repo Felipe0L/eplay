@@ -1,9 +1,10 @@
 import { useDispatch } from 'react-redux'
-import bannerImg from '../../assets/images/fundo_hogwarts.png'
-import { Game } from '../../pages/Home'
+
 import Button from '../Button'
-import { formataPreco } from '../ProductsList'
 import Tag from '../Tag'
+
+import { Game } from '../../pages/Home'
+import { formataPreco } from '../ProductsList'
 import { Banner, Infos } from './styles'
 import { add, open } from '../../store/reducers/cart'
 
