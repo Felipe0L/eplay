@@ -1,8 +1,8 @@
 import Product from '../Product'
-import { Game } from '../../pages/Home'
+import Loader from '../Loader'
+
 import { parseToBrl } from '../../utils'
 import * as S from './styles'
-import Loader from '../Loader'
 
 export type Props = {
   title: string
