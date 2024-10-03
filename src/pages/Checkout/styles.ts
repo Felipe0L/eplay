@@ -37,6 +37,10 @@ export const InputGroup = styled.div<InputGroupProps>`
     height: 32px;
     padding: 0 8px;
     width: 100%;
+
+    &.error {
+      border: 1px solid red;
+    }
   }
 `
 export const TabButton = styled.button<TabButtonProps>`
@@ -44,7 +48,8 @@ export const TabButton = styled.button<TabButtonProps>`
   font-size: 14px;
   font-weight: bold;
   color: ${colors.white};
-  background-color: ${(props) => (props.isActive ? colors.green : colors.black)};
+  background-color: ${(props) =>
+    props.isActive ? colors.green : colors.black};
   height: 32px;
   border: none;
   margin-right: 16px;
